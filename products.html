@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - RK Marketing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+	<h1>RK Marketing</h1>
+	<nav>
+	    <ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="products.html">Products</a></li>
+		<li><a href="cart.html">Cart</a></li>
+	    </ul>
+	</nav>
+    </header>
+    <main>
+	<h2>Products</h2>
+	<div class="product-list">
+	    <div class="product">
+		<h3>Mouse</h3>
+		<p>₹350</p>
+		<img src="mouse.jpg" width="20%" height="30%"> <br>
+		<button onclick="addToCart('Product 1', 350)">Add to Cart</button>
+	    </div>
+	    <div class="product">
+		<h3>Keyboard</h3>
+		<img src="keyboard.jpg" width="20%" height="30%">
+		<p>₹600</p>
+		<button onclick="addToCart('Product 2', 600)">Add to Cart</button>
+	    </div>
+	    <!-- Add more products as needed -->
+		<div class="product">
+			<h3>Hard Disk</h3>
+			<p>₹3000</p>
+			<img src="hard-disk.jpg" width="20%" height="30%"><br>
+			<button onclick="addToCart('Product 3', 3000)">Add to Cart</button>
+		    </div>
+		<div class="product">
+			<h3>Computer</h3>
+			<img src="shopping.webp" width="15%" height="30%"> <br>
+			<p>₹26000</p>
+			<button onclick="addToCart('Product 4', 26000)">Add to Cart</button>
+		    </div>
+		<div class="product">
+			<h3>Headphones</h3>
+			<img src="headphone.jpg" width="20%" height="30%"> <br>
+			<p>₹2000</p>
+			<button onclick="addToCart('Product 5', 2000)">Add to Cart</button>
+		    </div>
+		<div class="product">
+			<h3>Laptop</h3>
+			<img src="laptop.jpg" width="20%" height="30%"> <br>
+			<p>₹50000</p>
+			<button onclick="addToCart('Product 6', 50000)">Add to Cart</button>
+		    </div>
+		<div class="product">
+			<h3>Tab</h3>
+			<img src="tab.png" width="20%" height="30%"> <br>
+			<p>₹35000</p>
+			<button onclick="addToCart('Product 7', 35000)">Add to Cart</button>
+		    </div>
+		<div class="product">
+			<h3>Camera</h3>
+			<img src="cctv.jpg" width="20%" height="30%"> <br>
+			<p>₹3000</p>
+			<button onclick="addToCart('Product 8', 3000)">Add to Cart</button>
+		    </div>
+		<div class="product">
+			<h3>Gaming CPU</h3>
+			<img src="cpu.webp" width="20%" height="30%"> <br>
+			<p>₹35000</p>
+			<button onclick="addToCart('Product 9', 35000)">Add to Cart</button>
+		    </div>
+	</div>
+    </main>
+    <footer>
+	<p>&copy; 2024 RK Marketing</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
