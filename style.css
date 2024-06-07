@@ -154,6 +154,30 @@ button:hover {
     background-color: #45a049;
 }
 
+/* About Page Styles */
+.about {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+    text-align: left;
+}
+
+.about h2 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+
 /* Footer Styles */
 footer {
     background-color: #333;
