@@ -41,6 +41,17 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
+/*Logo Styles*/
+.logo {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+}
+
 /* Hero Section */
 .hero {
     background: url('/bg.jpeg') no-repeat center center/cover;
